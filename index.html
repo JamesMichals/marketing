@@ -7,7 +7,12 @@
     <style type="text/css">
 
         #canvas {
-            background-color: black;
+            position: inherit;
+/*
+            display: grid;  
+            grid-template-columns: 1fr;  
+            grid-template-rows: 33%;
+*/
         }
         
         #pacman {
@@ -47,10 +52,11 @@
 </head>
 
     <body style="margin:0px auto; background-color:#fff;">
-        <div id="canvas"></div>
+        <div id="canvas">
         <div id="rumourLogo"></div>
         <div id="pacman"></div>
         <div id="legend"></div>
+        </div>
         
   <script>
       
